@@ -10,7 +10,7 @@ const snsClient = new SNSClient({ region: "ap-southeast-2" });
 export const handler = async (event) => {
   // 1. Setup Config
   const tableName = "IncidentReports";
-  const snsTopicArn = "arn:aws:sns:us-east-1:177815087725:SiteDownAlerts";
+  const snsTopicArn = "arn:aws:sns:ap-southeast-2:177815087725:SiteDownAlerts";
 
   try {
     // 2. Parse Incoming Data (Handle POST body)
