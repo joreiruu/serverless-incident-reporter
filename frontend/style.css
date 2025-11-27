@@ -1,0 +1,12 @@
+body { font-family: sans-serif; background: #f4f7f6; display: flex; justify-content: center; height: 100vh; align-items: center; }
+.container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 400px; }
+h1 { color: #d9534f; text-align: center; margin-bottom: 20px; font-size: 22px; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; color: #555; }
+input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+textarea { height: 80px; resize: none; }
+button { width: 100%; background: #d9534f; color: white; border: none; padding: 12px; border-radius: 4px; font-size: 16px; cursor: pointer; }
+button:disabled { background: #e6a8a6; }
+.hidden { display: none; }
+.success { margin-top: 15px; padding: 10px; background: #d4edda; color: #155724; border-radius: 4px; text-align: center; }
+.error { margin-top: 15px; padding: 10px; background: #f8d7da; color: #721c24; border-radius: 4px; text-align: center; }
