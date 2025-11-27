@@ -46,7 +46,6 @@
             btn.disabled = true;
             btn.innerText = "Sending...";
 
-            // REPLACE WITH YOUR NEW FUNCTION URL
             const apiUrl = "https://ng3afpmbkrpp5huccrwh7almza0lotyd.lambda-url.ap-southeast-2.on.aws/";
 
             const data = {
